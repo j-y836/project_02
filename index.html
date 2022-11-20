@@ -11,6 +11,16 @@
 
 <body>
   <div></div>
+  <script>
+    let obj = {
+      a: 1
+    }
+    obj.b = obj = {
+      a: 2
+    }
+    console.log(obj.b)
+  </script>
+
 </body>
 
 </html>
